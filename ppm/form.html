@@ -1,0 +1,39 @@
+<h1>Meu Formulário</h1>
+<form action="https://formspree.io/f/mdojrypn" method="post">
+    <p>
+        <label>Informe seu nome</label><br>
+        <input placeholder= "Digite algo..." type="text" required="required" value="Porto Alegre" name="nome">
+    </p>
+    <p>
+        <label>Digite sua mensagem</label><br>
+        <textarea placeholder= "Digite algo..." required name="mensagem" cols="60" rows="10">Mensagem</textarea>
+    </p>
+    <p>
+        <label>Escolha os esportes que você prática:</label><br>
+        <ul>
+            <li><input checked="checked" value="SIM" type="checkbox" name="mauay thai"> Mauay Thai</li>
+            <li><input value="SIM" type="checkbox" name="vôlei"> Vôlei</li>
+            <li><input value="SIM" type="checkbox" name="skate"> Skate</li>
+        </ul>
+    </p>
+    <p>
+        <label>Escolha sua cor favorita:</label><br>
+        <ul>
+            <li><input value="VERMELHO" type="radio" name="corFavorita" >Vermelho</li>
+            <li><input value="AZUL" type="radio" name="corFavorita">Azul</li>
+            <li><input value="PRETO" type="radio" name="corFavorita">Preto</li>
+        </ul>
+        <p>
+        <p>
+            <label>Escolha sua Cidade</label>
+            <select>
+                <option value="POA">Porto Alegre</option>
+                <option selected value="ALVORADA">Alvorada</option>
+                <option value="SJC">São José dos Campos</option>
+            </select>
+        </p>
+        </p>
+            <input value="SIM" type="checkbox" name="termosDoContrato"> Eu aceito os termos de uso do site
+    </p>
+        <button type="submit">Enviar Dados</button>
+</form>
